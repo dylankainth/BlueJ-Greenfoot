@@ -36,32 +36,32 @@
 }
 
 .scope-colors {
-    -bj-background-color: white;
+    -bj-background-color: rgba(255, 235, 235);
 
-    -bj-class-color: rgb(225, 248, 225);
-    -bj-class-outer-color: rgb(188, 218, 188);
-    -bj-class-inner-color: rgb(210, 230, 210);
+    -bj-class-color: rgb(255, 204, 204);
+    -bj-class-outer-color: rgb(255, 153, 153);
+    -bj-class-inner-color: rgb(255, 178, 178);
 
-    -bj-method-color: rgb(250, 250, 180);
-    -bj-method-outer-color: rgb(215, 215, 205);
+    -bj-method-color: rgb(255, 102, 102);
+    -bj-method-outer-color: rgb(255, 51, 51);
 
-    -bj-selection-color: rgb(233, 233, 248);
-    -bj-selection-outer-color: rgb(188, 188, 210);
+    -bj-selection-color: rgb(255, 77, 77);
+    -bj-selection-outer-color: rgb(204, 0, 0);
 
-    -bj-iteration-color: rgb(248, 233, 248);
-    -bj-iteration-outer-color: rgb(210, 177, 210);
+    -bj-iteration-color: rgb(255, 128, 128);
+    -bj-iteration-outer-color: rgb(204, 0, 0);
 
-    -bj-breakpoint-overlay-color: rgba(200, 20, 20, 0.6);
-    -bj-step-overlay-color: rgba(20, 140, 20, 0.6);
+    -bj-breakpoint-overlay-color: rgba(255, 0, 0, 0.6);
+    -bj-step-overlay-color: rgba(204, 0, 0, 0.6);
 }
 
 .moe-step-mark-icon {
     -fx-fill: rgb(20, 140, 20);
-    -fx-stroke: white;
+    -fx-stroke: rgba(255, 222, 222, 0.6);
 }
 
 .moe-editor-pane {
-    -fx-background-color: white;
+    -fx-background-color: rgba(204, 0, 0, 0.6);
     -fx-highlight-fill: hsb(211, 50%, 90%);
 }
 

@@ -1,7 +1,7 @@
 /* Styles for suggestions (i.e. code completion) */
 
 .root {
-  suggestion-background: white;
+  suggestion-background: rgba(255, 235, 235, 0.6);
 }
 
 .suggestion-list {
@@ -98,7 +98,7 @@
 }
 
 .suggestion-more-label-pane {
-    -fx-background-color: white;
+    -fx-background-color: rgba(255, 235, 235, 0.6);
     -fx-border-width: 1 0 1 0;
     -fx-border-color: hsb(0, 0%, 70%) transparent hsb(0, 0%, 70%) transparent;
     -fx-border-style: solid inside;

@@ -50,10 +50,10 @@
     switch-sidelabel: hsb(56, 15%, 70%);
     
     breakpoint-frame: hsb(0, 60%, 30%);
-    breakpoint-text: white;
+    breakpoint-text: rgba(255, 235, 235, 0.6);
     debug-info: rgb(153, 61, 0);
     debug-info-highlight: rgb(230, 115, 0);
-    debug-info-text: white;
+    debug-info-text: rgba(255, 235, 235, 0.6);
         
     method-frame: hsb(60, 15%, 93%);
     method-frame-java: hsb(60, 8%, 95%);
@@ -69,12 +69,12 @@
     frame-canvas-non-empty: hsb(42, 5%, 97%);
     frame:  hsb(42, 5%, 97%);              /* default frame colour */
     frame-border: hsb(42, 5%, 97%);        /* default frame border (none, same as bg) */
-    frame-canvas-border: rgb(180,180,180); /* border for frame slots in frames */
-    frame-canvas-border-java: rgb(210,210,210);
+    frame-canvas-border: rgb(255, 159, 159); /* border for frame slots in frames */
+    frame-canvas-border-java: rgb(255, 210, 210);
     frame-stack-border: hsb(10, 80%, 40%);
     frame-drag-border: hsb(0, 0%, 40%);
     
-    focused-slot: white;
+    focused-slot: rgba(255, 235, 235, 0.6);
     text-slot-prompt-text: hsb(0, 0%, 60%);
 }
 
@@ -89,8 +89,8 @@
     -fx-padding: 0 0 0 0;
 }
 .frame:bj-java-preview {
-    -fx-background-color: white;
-    -fx-border-color: white;
+    -fx-background-color: rgba(255, 193, 193, 0.6);
+    -fx-border-color: rgba(255, 235, 235, 0.6);
 }
 .frame:bj-debug-before {
     -fx-border-radius: 0 0 5 5;
@@ -122,7 +122,7 @@
     -bj-background-color: frame-canvas-non-empty;
 }
 .frame-canvas:bj-empty:bj-java-preview, .frame-canvas:bj-non-empty:bj-java-preview {
-    -bj-background-color: white;
+    -bj-background-color: rgba(255, 235, 235, 0.6);
     -bj-border-color: frame-canvas-border-java;
 }
 
@@ -132,7 +132,7 @@
     -fx-border-radius: 5 5 0 0;
     -fx-border-width: 0;
     -fx-border-style: solid outside;
-    -fx-background-color: white;
+    -fx-background-color: rgba(255, 235, 235, 0.6);
     -fx-background-insets: -2 1 0 2.2em;
     -fx-border-insets: 0 0 0 2.2em;
 }
@@ -228,8 +228,8 @@
 
 .class-frame .inherited-method-frame:bj-java-preview, .class-frame .import-frame:bj-java-preview, .class-frame .import-field:bj-java-preview,
 .interface-frame .inherited-method-frame:bj-java-preview, .interface-frame .import-frame:bj-java-preview, .interface-frame .import-field:bj-java-preview {
-    -fx-border-color: white;
-    -fx-background-color: white;
+    -fx-border-color: rgba(255, 235, 235, 0.6);
+    -fx-background-color: rgba(255, 235, 235, 0.6);
 }
 
 .inherited-method-caption, .inherited-method-slot {
@@ -337,7 +337,7 @@
 }
 
 .comment-documentation-text:focused, .import-field:focused {
-    -fx-background-color: white;
+    -fx-background-color: rgba(255, 235, 235, 0.6);
 }
 
 .caption {
@@ -369,7 +369,7 @@
 
 /* slots */
 .text-slot, .choice-slot, .expression-slot-field {
-    -fx-border-color: rgb(230, 230, 230);
+    -fx-border-color: rgb(255, 157, 157);
     -fx-border-radius: 4;
     -fx-background-radius: 4;
     -fx-background-color: focused-slot;
@@ -420,7 +420,7 @@
 }
 
 .choice-slot:focused {
-    -fx-border-color: rgb(230, 230, 230);
+    -fx-border-color: #ffb2b2;
 }
 
 

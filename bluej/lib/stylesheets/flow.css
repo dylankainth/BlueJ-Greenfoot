@@ -12,14 +12,14 @@
     -fx-label-padding: 0 0.3em 0 0.3em;
 }
 .margin-and-text-line {
-    -fx-background-color: white;
+    -fx-background-color: rgba(255, 235, 235, 0.6);
     -fx-cursor: text;
 }
 .flow-margin-line {
     -fx-stroke: grey;
 }
 .flow-margin-background {
-    -fx-background-color: white;
+    -fx-background-color: rgba(255, 235, 235, 0.6);
     -fx-cursor: default;
 }
 .margin-and-text-line:bj-margin-uncompiled .flow-margin-background {
@@ -36,11 +36,11 @@
     -fx-alignment: center-right;
     -fx-graphic-text-gap: 0;
     -fx-label-padding: 0 2 0 0;
-    -fx-text-fill: black;
+    -fx-text-fill: rgba(107, 0, 0, 0.6);
     -fx-cursor: default;
 }
 .margin-and-text-line:bj-margin-error .flow-line-label {
-    -fx-text-fill: white;
+    -fx-text-fill: rgba(255, 235, 235, 0.6);
 }
 .text-line .flow-selection {
     -fx-fill: hsb(211, 50%, 90%);
@@ -62,5 +62,5 @@
 
 
 .line-container {
-    -fx-background-color: white;
+    -fx-background-color: rgba(255, 235, 235, 0.6);
 }

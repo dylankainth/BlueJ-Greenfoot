@@ -1,15 +1,15 @@
 .root {
-    class-target: rgb(239, 204, 149);
-    test-target: rgb(166, 191, 137);
-    css-target: rgb(197, 205, 206);
-    text-target: rgb(197, 205, 206);
-    externalfile-target: rgb(156, 220, 240);
-    window-background: rgb(229, 229, 229);
-    class-diagram: rgb(249,247,242);
-    object-bench: rgb(239,237,232);
-    codepad: rgb(239,237,232);
-    codepad-input: rgb(249,247,242);
-    pane-border-color: gray;
+    class-target: rgb(255, 204, 204);
+    test-target: rgb(255, 153, 153);
+    css-target: rgb(255, 102, 102);
+    text-target: rgb(255, 51, 51);
+    externalfile-target: rgb(204, 0, 0);
+    window-background: rgb(255, 230, 230);
+    class-diagram: rgb(255, 204, 204);
+    object-bench: rgb(255, 179, 179);
+    codepad: rgb(255, 153, 153);
+    codepad-input: rgb(255, 128, 128);
+    pane-border-color: rgb(153, 0, 0);
 }
 
 .pmf-root {

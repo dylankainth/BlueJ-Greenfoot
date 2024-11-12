@@ -99,7 +99,7 @@
     -fx-padding: 0 0 1em 0;
 }
 .about-tabs > .tab-header-area > .tab-header-background {
-    -fx-background-color: white;
+    -fx-background-color: rgb(255, 172, 172);
 }
 .about-more-info {
     -fx-padding: 1em 0 0 0;
