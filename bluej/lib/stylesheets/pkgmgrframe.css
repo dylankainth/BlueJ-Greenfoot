@@ -314,7 +314,7 @@
     -fx-background-color: linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
             linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
        And here's our translation to use our background colour:*/
-    -fx-background-color: lightgray, codepad-input;
+    -fx-background-color: rgb(255, 171, 171), codepad-input;
     -fx-background-radius: 5px, 6px;
 }
 .codepad .text-field:focused {

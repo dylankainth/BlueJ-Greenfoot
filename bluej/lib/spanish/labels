@@ -161,7 +161,7 @@ extmgr.error.cannotload=La extension no puede ser cargada
 #---------------
 #Editor labels
 #---------------
-editor.title=BlueJ: Editor
+editor.title=RedJ: Editor
 
 #button labels for toolbar commands
 editor.compileLabel = Compilar

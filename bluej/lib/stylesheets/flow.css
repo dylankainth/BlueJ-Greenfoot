@@ -1,6 +1,6 @@
 .flow-top-bar {
     -fx-padding: 0.75em 1em 0.75em 1em;
-    -fx-background-color: hsb(0, 0%, 50%), rgb(225, 225, 225);
+    -fx-background-color: hsb(0, 0%, 50%), rgb(255, 151, 151);
     -fx-background-insets: 0 0 0 0, 0 0 1 0;
 }
 .flow-top-bar-buttons {
@@ -16,7 +16,7 @@
     -fx-cursor: text;
 }
 .flow-margin-line {
-    -fx-stroke: grey;
+    -fx-stroke: rgb(255, 143, 143);
 }
 .flow-margin-background {
     -fx-background-color: rgba(255, 235, 235, 0.6);
