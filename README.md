@@ -1,7 +1,9 @@
 <img src="bluej/icons/bluej-icon-512-embossed.png" align="left" width="128">
 <img src="greenfoot/resources/images/greenfoot-icon-big.jpg" align="right" width="100">
 
-# BlueJ and Greenfoot
+# RedJ and Greenfoot
+
+RedJ: It's BlueJ, but Red!
 
 BlueJ and Greenfoot are integrated development environments (IDE) aimed at novices.  They support the use of the Java programming language, as well as the frame-based Stride language.
 
