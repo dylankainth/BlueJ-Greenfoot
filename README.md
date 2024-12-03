@@ -7,6 +7,8 @@ RedJ: It's BlueJ, but Red!
 
 BlueJ and Greenfoot are integrated development environments (IDE) aimed at novices.  They support the use of the Java programming language, as well as the frame-based Stride language.
 
+This is the repo for RedJ, a fork of BlueJ in red theme!
+
 BlueJ and Greenfoot are maintained by Michael Kölling and his research group at King's College London.
 
 Further details and installers
